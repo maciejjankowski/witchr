@@ -22,7 +22,7 @@ Alternative:
 How I use it
 -------
 
-I create a shortcut in SciTe and Notepad++ to run 
+I created a keyboard shortcut in SciTe and Notepad++ to run 
     
     wget -O - -q http://localhost:1337/ref
 
