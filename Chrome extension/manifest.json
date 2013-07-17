@@ -1,0 +1,17 @@
+{
+  "name": "Witchr Chrome Extension",
+  "version": "0.0.1",
+  "manifest_version":2,
+  "description": "Attaches /sokietref.js listener waiting to reload your page when you ask it nicely",
+  "permissions": [
+    "http://*/*",
+    "file://*",
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://localhost/*"],
+      "js": ["content_script.js"]
+    }
+    
+  ]
+}

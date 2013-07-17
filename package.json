@@ -1,0 +1,17 @@
+{
+"name":"witchr",
+"description":"witchr",
+"version":"0.0.1",
+"dependencies":{
+	"socket.io":"*"
+	},
+"engines":{
+	"node":"0.8.x"
+	},
+"scripts":{
+	"stop":"supervisor -e js,ejs,html --watch .,./public,./views,./routes,./models server.js",
+	"start":"nodemon -e js,ejs,html -w . -w public -w views -w routes -w models server.js"
+	},
+"main":"./server.js"
+
+}
