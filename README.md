@@ -6,7 +6,7 @@ Witchr is a quick and dirty solution witch lets you refresh your browser by send
 
 Usage
 --------------------
-0. npm install
+0. npm install (just once...)
 1. Grab the ugly Chrome extension and install it in developer mode.
 2. put the ref.js file from "Include this" in your site's /    (see below)
 3. npm start
