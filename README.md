@@ -19,8 +19,16 @@ Alternative:
 
     <script src="/ref.js"></script>
     
+How I use it
+-------
+
+I create a shortcut in SciTe and Notepad++ to run 
     
-    
+    wget -O - -q http://localhost:1337/ref
+
+Now, whenever I hit Ctrl+Shift+S it saves my files and reloads the browser at the same time.
+Brilliant easy fix that saves me some time.
+
 BONUS POINTS
 -------------------
 if you can make the code uglier, like... it's the *Ugliest JS Oneliner Contest*
