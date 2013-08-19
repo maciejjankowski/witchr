@@ -2,7 +2,7 @@ Witchr
 ==================
 // Named in honour of A. Sapkowski's The Witcher
 
-Witchr is a quick and dirty solution witch lets you refresh your browser by sending a socket message from IDE of your choice (erm... I mean the console. FTW! :P
+Witchr is a quick and dirty solution witch lets you refresh your browser by sending a socket message from IDE of your choice (erm... I mean the console. -scratch that- the TERMINAL FTW! :P
 
 How it works
 ----------------------
